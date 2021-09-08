@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url("");
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+.barraGeneral{
+    background: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items{
+    width: 600px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items a{
+    color: white;
+}
+
+.logo{
+    width: 60px;
+}
+
+section:nth-of-type(1){
+    background: black;
+}
+
+section:nth-of-type(2){
+    background: rgb(22, 22, 110);
+}
+
+section:nth-of-type(3){
+    background: chocolate;
+}
